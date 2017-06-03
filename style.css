@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'munroregular';
+    src: url('munro-webfont.woff2') format('woff2'),
+         url('munro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url(bbback.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+
+button {
+    position: fixed;
+    bottom: 20%;
+    left: 41%;
+    font-family: 'munroregular';
+    background: none;
+    border: none;
+    color: greenyellow;
+    font-size: 40px;
+}
+
+@keyframes rainbow {
+  0% {
+        color: #f00;
+  }
+	20% {
+        color: #ff0;
+	}
+	40% {
+        color: #0f0;
+	}
+	60% {
+		color: #0ff;
+	}
+	80% {
+		color: #00f;
+	}
+  100% {
+    color: #f00;
+  }
+}
+
+.enter {
+    animation: rainbow 3s infinite;
+    z-index: 2;
+}
+
+.centerbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+
+    transform: scale(0);
+    transition: transform .3s ease;
+    width: 400px;
+    height: 112px;
+    padding: 10px;
+    
+    text-align: center;
+    background: blue;
+    border-color: white;
+    color: white;
+    font-family: 'munroregular'; 
+    font-size: 20px;
+    z-index: 3;
+}
+
+
+.centerbox.active {
+    transform: scale(1);
+}
+
+form {
+    font-family: 'murnoregular';
+    font-size: 10px; 
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+button2 {
+    position: fixed;
+    bottom: 20%;
+    left: 80%;
+    font-family: 'munroregular';
+    background: none;
+    border: none;
+    color: greenyellow;
+    font-size: 40px;
+}
+
+.box {
+
+}
