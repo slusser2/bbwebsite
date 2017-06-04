@@ -1,0 +1,22 @@
+{
+  "name": "bbwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stuff.js",
+  "scripts": {
+    "start": "harp server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slusser2/bbwebsite.git"
+  },
+  "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slusser2/bbwebsite/issues"
+  },
+  "homepage": "https://github.com/slusser2/bbwebsite#readme",
+  "devDependencies": {
+    "harp": "^0.24.0"
+  }
+}

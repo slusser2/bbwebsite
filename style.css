@@ -62,12 +62,11 @@ button {
     width: 400px;
     height: 112px;
     padding: 10px;
-    
+
     text-align: center;
-    background: blue;
     border-color: white;
     color: white;
-    font-family: 'munroregular'; 
+    font-family: 'munroregular';
     font-size: 20px;
     z-index: 3;
 }
@@ -77,9 +76,17 @@ button {
     transform: scale(1);
 }
 
+#agebox {
+  background: blue;
+}
+
+#mockbox {
+  background: red;
+}
+
 form {
     font-family: 'murnoregular';
-    font-size: 10px; 
+    font-size: 10px;
 }
 
 .logo {

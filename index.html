@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
 	<meta charset="utf-8" />
 	<title>Billionaire Banshee</title>
 	<meta name="description" content="" />
-    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
-    <div class="logo">
-<img src="bblogo9.png" alt="3D logo">
-    </div>
-    
-    <button class="enter">CLICK TO ENTER</button>
+	<div class="logo">
+		<img src="bblogo9.png" alt="3D logo">
+	</div>
 
-<div class="centerbox">
-    <h3>How old are you exactly?</h3>
-  <form>
-  <select name="Age">
-    <option value="1-17">1-17</option>
-    <option value="18-22">18-22</option>
-    <option value="23-29">23-29</option>
-    <option value="30-39">30-39</option>
-    <option value="40-99">40-99</option>  
-  </select>
-</form>
-    </div>
+	<button class="enter">CLICK TO ENTER</button>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-    <script src="stuff.js"></script>
+	<div id="agebox" class="centerbox">
+		<h3>How old are you exactly?</h3>
+		<form>
+			<select id="Age" name="Age">
+		    <option value="1-17">1-17</option>
+		    <option value="18-22">18-22</option>
+		    <option value="23-29">23-29</option>
+		    <option value="30-39">30-39</option>
+		    <option value="40-99">40-99</option>
+		  </select>
+		</form>
+	</div>
+
+	<div id="mockbox" class="centerbox">
+		I'm mocking you!
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script src="stuff.js"></script>
 </body>
+
 </html>
