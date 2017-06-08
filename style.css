@@ -151,6 +151,8 @@ a {
  
 input {
     width: 397px;
+    background: grey;
+    color: white;
 }
 
 .csz input {
@@ -196,4 +198,8 @@ h2{
 
 .cardholder {
     margin-top: 30px;
+}
+
+.back{
+    z-index: 4;
 }

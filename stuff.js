@@ -10,6 +10,10 @@ $('#mockbox').on('click', function(){
   })
 });
 
+$('.front').click(function(event){
+    $('.back').addClass('active')
+});
+
   
 
 /*
