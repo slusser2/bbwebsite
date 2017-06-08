@@ -114,5 +114,38 @@ button2 {
 }
 
 .box {
-
+    margin-top: 10px;
+    float: left;
 }
+
+a {
+    text-decoration: none;
+    color: greenyellow;
+    font-family: munroregular;
+    float: right;
+    margin-right: 180px;
+    font-size: 40px;
+}
+
+
+.info {
+    list-style-type: none;
+    font-family: munroregular;
+    float: right;
+    color: greenyellow;
+    height: auto;
+    width: 500px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-right: 180px;
+    margin-left: 80px;
+}
+
+.cinnamon {
+    
+}
+
+* {
+  box-sizing: border-box;
+}
+ 
