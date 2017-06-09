@@ -89,7 +89,7 @@ button {
 }
 
 form {
-    font-family: 'murnoregular';
+    font-family: 'munroregular';
     font-size: 10px;
 }
 
@@ -200,6 +200,22 @@ h2{
     margin-top: 30px;
 }
 
-.back{
-    z-index: 4;
+.back {
+    margin-top: -280px;
+    margin-left: 425px;
+    z-index: 0;
+}
+
+.front{
+    margin-top: 40px;
+    margin-left: 425px;
+    z-index: 1;
+}
+
+.cards{
+    
+}
+
+.back.active {
+    transform: scale(1);
 }

@@ -11,7 +11,8 @@ $('#mockbox').on('click', function(){
 });
 
 $('.front').click(function(event){
-    $('.back').addClass('active')
+//    $('.back').addClass('active')
+    $(this).fadeOut();
 });
 
   
