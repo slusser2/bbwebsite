@@ -9,9 +9,10 @@ $('#mockbox').on('click', function(){
   })
 });
 
-$('#now').click(function(event){
+$('.now').click(function(event){
     $('.denied').addClass('active')
 });
+
 
 /*
 1-17= Do your parents know where you are, ya whipper snapper?! 
