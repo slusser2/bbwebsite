@@ -1,7 +1,6 @@
 $('.enter').click(function(event){
   $('#agebox').addClass('active') // show
   $('#Age').change(function(event){
-    console.log('hi Anna!')
     $('#agebox').removeClass('active') // hide
     $('#mockbox').addClass('active') // show
 $('#mockbox').on('click', function(){
@@ -10,12 +9,9 @@ $('#mockbox').on('click', function(){
   })
 });
 
-$('.front').click(function(event){
-//    $('.back').addClass('active')
-    $(this).fadeOut();
+$('#now').click(function(event){
+    $('.denied').addClass('active')
 });
-
-  
 
 /*
 1-17= Do your parents know where you are, ya whipper snapper?! 
