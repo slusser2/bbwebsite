@@ -13,6 +13,8 @@ $('.now').click(function(event){
     $('.denied').addClass('active')
 });
 
+$('.cinnamon').slideUp( 300 )
+
 
 /*
 1-17= Do your parents know where you are, ya whipper snapper?! 
